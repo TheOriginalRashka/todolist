@@ -5,8 +5,11 @@ public class TodoList {
     /*
      * Add a new item to the list, given a description and priority.
      */
+	List<String> todoList = new ArrayList<>();
+	
     public void addItem(String description, int priority) {
         // TODO
+    	todoList.add(priority, description);
     }
     
     /*
@@ -14,6 +17,7 @@ public class TodoList {
      */
     public TodoListItem getItem(int i) {
         // TODO
+    	getItem = todoList.get();
         return null;
     }
     
